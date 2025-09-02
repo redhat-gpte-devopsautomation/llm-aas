@@ -16,5 +16,8 @@ resources:
 - create-odh-tec-workbench.yaml
 - granite-code-vllm-raw.yaml
 - mistral-vllm-raw.yaml
+- granite33-inferenceservice.yaml
+- granite33-oci-data-connection.yaml
+- granite33-servingruntime.yaml
 - nvidia-gpu-monitoring-dashboard-job.yaml
 #- nomic-embed-raw.yaml
