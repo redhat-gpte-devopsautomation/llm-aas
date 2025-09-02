@@ -5,6 +5,7 @@ metadata:
     openshift.io/display-name: granite-3.2-8b-instruct
     serving.kserve.io/deploymentMode: RawDeployment
   name: granite-3-2-8b-instruct
+  namespace: llm-hosting
   labels:
     opendatahub.io/dashboard: 'true'
 spec:
