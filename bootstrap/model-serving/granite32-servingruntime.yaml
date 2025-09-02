@@ -34,7 +34,11 @@ spec:
       env:
         - name: HF_HOME
           value: /tmp/hf_home
-      image: 'quay.io/modh/vllm:rhoai-2.22-cuda'
+        - name: VLLM_USE_MODELSCOPE
+          value: "False"
+        - name: TRANSFORMERS_OFFLINE
+          value: "1"          
+      image: 'quay.io/modh/vllm:rhoai-2.23-cuda'
       name: kserve-container
       ports:
         - containerPort: 8080
