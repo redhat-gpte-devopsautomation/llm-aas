@@ -25,7 +25,7 @@ spec:
         - '--served-model-name={{.Name}}'
         - '--enable-auto-tool-choice'
         - '--max-model-len'
-        - '16,384'
+        - '16384'
       command:
         - python
         - '-m'
